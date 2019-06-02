@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <script src="Events.js" defer></script>
+    <script src="API.js"></script>
+    <title>Inlamningsuppgift_1</title>
+</head>
+
+<body>
+    <div id="container">
+        <h1 id="font">Currency Converter</h1>
+        <br>
+        <select onchange="converter.convert()" class="form" id="start-currency" style="width:49.5%;">
+        </select>
+        <select onchange="converter.calculate()" class="form" id="end-currency" style="width:49.5%;">
+        </select>
+        <br><br>
+        <br>
+        <input type="number" placeholder="0" oninput="converter.calculate()" class="form-control" id="start-value" />
+        <br>
+        <div id="arrow-div">
+            <span>&#8595;</span>
+        </div>
+        <br>
+        <input type="number" class="form-control" id="end-value" disabled="disabled" />
+
+        <footer>
+            <p id="small-text">Made by Ludwig Johansson</p>
+        </footer>
+    </div>
+</body>
+
+</html>

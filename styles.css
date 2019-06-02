@@ -1,0 +1,44 @@
+body 
+{
+    background-image: url(blur.png);
+}
+
+#font 
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+#container 
+{
+    width: 25%;
+    margin-top: 5%;
+    margin-left: 38%;
+    position: absolute;
+    height: auto;
+}
+
+p 
+{
+    text-align: center;
+    color: white;
+}
+
+h4 
+{
+    text-align: center;
+    color: white;
+}
+
+span 
+{
+    content: "\2193";
+    color: white;
+    margin-left: 47%;
+}
+
+#small-text
+{
+    padding-top: 105%;
+}
